@@ -1,0 +1,101 @@
+,model,aicc,weights
+1,dS ~ 1 + predator + morph + substrate + morph:predator + substrate:predator + substrate:morph,2212.681317,0.420356915
+2,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph + species:substrate,2214.603197,0.160800495
+3,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph,2214.752563,0.149228873
+4,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph + species:predator + species:substrate,2216.52135,0.061626224
+5,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph + species:predator,2216.661486,0.057456025
+6,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph + species:morph + species:substrate,2216.7011,0.056329168
+7,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph + species:morph,2216.836957,0.052629892
+8,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph + species:predator + species:morph + species:substrate,2218.632894,0.021441228
+9,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + substrate:morph + species:predator + species:morph,2218.75939,0.020127115
+10,dS ~ 1 + predator + morph + substrate + morph:predator + substrate:morph,2237.458649,1.75E-06
+11,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph,2239.503384,6.30E-07
+12,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph + species:substrate,2239.546903,6.16E-07
+13,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph + species:predator,2241.489449,2.33E-07
+14,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph + species:predator + species:substrate,2241.54364,2.27E-07
+15,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph + species:morph,2241.561141,2.25E-07
+16,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph + species:morph + species:substrate,2241.617915,2.19E-07
+17,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph + species:predator + species:morph,2243.560461,8.29E-08
+18,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:morph + species:predator + species:morph + species:substrate,2243.628034,8.01E-08
+19,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + species:substrate,2398.111187,2.28E-41
+20,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + species:morph + species:substrate,2400.195581,8.04E-42
+21,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + species:predator + species:substrate,2400.656248,6.39E-42
+22,dS ~ 1 + predator + morph + substrate + morph:predator + substrate:predator,2401.149585,4.99E-42
+23,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + species:predator + species:morph + species:substrate,2402.754152,2.24E-42
+24,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator,2403.207513,1.78E-42
+25,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + species:morph,2405.278525,6.33E-43
+26,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + species:predator,2405.752935,5.00E-43
+27,dS ~ 1 + predator + morph + substrate + species + morph:predator + substrate:predator + species:predator + species:morph,2407.837329,1.76E-43
+28,dS ~ 1 + predator + morph + substrate + species + morph:predator + species:substrate,2414.012062,8.04E-45
+29,dS ~ 1 + predator + morph + substrate + species + morph:predator + species:morph + species:substrate,2416.069819,2.87E-45
+30,dS ~ 1 + predator + morph + substrate + species + morph:predator + species:predator + species:substrate,2416.573781,2.23E-45
+31,dS ~ 1 + predator + morph + substrate + morph:predator,2416.748085,2.05E-45
+32,dS ~ 1 + predator + morph + substrate + species + morph:predator + species:predator + species:morph + species:substrate,2418.644793,7.93E-46
+33,dS ~ 1 + predator + morph + substrate + species + morph:predator,2418.779752,7.41E-46
+34,dS ~ 1 + predator + morph + substrate + species + morph:predator + species:morph,2420.824378,2.67E-46
+35,dS ~ 1 + predator + morph + substrate + species + morph:predator + species:predator,2421.340152,2.06E-46
+36,dS ~ 1 + predator + morph + substrate + species + morph:predator + species:predator + species:morph,2423.397908,7.36E-47
+37,dS ~ 1 + predator + morph + substrate + substrate:predator + substrate:morph,2472.459515,1.63E-57
+38,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph + species:predator,2474.022745,7.48E-58
+39,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph,2474.517443,5.84E-58
+40,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph + species:predator + species:substrate,2475.467719,3.63E-58
+41,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph + species:substrate,2475.95838,2.84E-58
+42,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph + species:predator + species:morph,2476.107139,2.64E-58
+43,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph + species:morph,2476.588455,2.07E-58
+44,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph + species:predator + species:morph + species:substrate,2477.565623,1.27E-58
+45,dS ~ 1 + predator + morph + substrate + species + substrate:predator + substrate:morph + species:morph + species:substrate,2478.042774,1.00E-58
+46,dS ~ 1 + predator + morph + substrate + substrate:morph,2485.323584,2.63E-60
+47,dS ~ 1 + predator + morph + substrate + species + substrate:morph + species:predator,2486.978268,1.15E-60
+48,dS ~ 1 + predator + morph + substrate + species + substrate:morph,2487.355251,9.53E-61
+49,dS ~ 1 + predator + morph + substrate + species + substrate:morph + species:predator + species:substrate,2488.471751,5.45E-61
+50,dS ~ 1 + predator + morph + substrate + species + substrate:morph + species:substrate,2488.843575,4.53E-61
+51,dS ~ 1 + predator + morph + substrate + species + substrate:morph + species:predator + species:morph,2489.036025,4.11E-61
+52,dS ~ 1 + predator + morph + substrate + species + substrate:morph + species:morph,2489.399877,3.43E-61
+53,dS ~ 1 + predator + morph + substrate + species + substrate:morph + species:predator + species:morph + species:substrate,2490.542763,1.94E-61
+54,dS ~ 1 + predator + morph + substrate + species + substrate:morph + species:morph + species:substrate,2490.901332,1.62E-61
+55,dS ~ 1 + predator + morph + substrate + species + substrate:predator + species:substrate,2597.039882,1.45E-84
+56,dS ~ 1 + predator + morph + substrate + substrate:predator,2597.36736,1.23E-84
+57,dS ~ 1 + predator + morph + substrate + species + substrate:predator + species:predator + species:substrate,2597.450013,1.18E-84
+58,dS ~ 1 + predator + morph + substrate + species + substrate:predator + species:morph + species:substrate,2599.110894,5.15E-85
+59,dS ~ 1 + predator + morph + substrate + species + substrate:predator,2599.412094,4.43E-85
+60,dS ~ 1 + predator + morph + substrate + species + substrate:predator + species:predator + species:morph + species:substrate,2599.534407,4.16E-85
+61,dS ~ 1 + predator + morph + substrate + species + substrate:predator + species:predator,2599.838829,3.58E-85
+62,dS ~ 1 + predator + morph + substrate + species + substrate:predator + species:morph,2601.469851,1.58E-85
+63,dS ~ 1 + predator + morph + substrate + species + substrate:predator + species:predator + species:morph,2601.909841,1.27E-85
+64,dS ~ 1 + predator + morph + substrate + species + species:substrate,2605.878809,1.75E-86
+65,dS ~ 1 + predator + morph + substrate,2606.093023,1.57E-86
+66,dS ~ 1 + predator + morph + substrate + species + species:predator + species:substrate,2606.348143,1.38E-86
+67,dS ~ 1 + predator + morph + substrate + species + species:morph + species:substrate,2607.923435,6.28E-87
+68,dS ~ 1 + predator + morph + substrate + species,2608.111743,5.71E-87
+69,dS ~ 1 + predator + morph + substrate + species + species:predator + species:morph + species:substrate,2608.405899,4.93E-87
+70,dS ~ 1 + predator + morph + substrate + species + species:predator,2608.595684,4.49E-87
+71,dS ~ 1 + predator + morph + substrate + species + species:morph,2610.143363,2.07E-87
+72,dS ~ 1 + predator + morph + substrate + species + species:predator + species:morph,2610.640311,1.61E-87
+73,dS ~ 1 + predator + substrate + species + substrate:predator + species:substrate,2614.457655,2.39E-88
+74,dS ~ 1 + predator + substrate + species + substrate:predator + species:predator + species:substrate,2614.854467,1.96E-88
+75,dS ~ 1 + predator + substrate + substrate:predator,2615.110287,1.73E-88
+76,dS ~ 1 + predator + substrate + species + substrate:predator,2616.84306,7.26E-89
+77,dS ~ 1 + predator + substrate + species + substrate:predator + species:predator,2617.256602,5.90E-89
+78,dS ~ 1 + predator + morph + morph:predator,2617.32069,5.72E-89
+79,dS ~ 1 + predator + morph + species + morph:predator,2619.339411,2.08E-89
+80,dS ~ 1 + predator + morph + species + morph:predator + species:morph,2621.37103,7.55E-90
+81,dS ~ 1 + predator + morph + species + morph:predator + species:predator,2622.35233,4.62E-90
+82,dS ~ 1 + predator + substrate + species + species:substrate,2623.322843,2.84E-90
+83,dS ~ 1 + predator + substrate + species + species:predator + species:substrate,2623.779108,2.26E-90
+84,dS ~ 1 + predator + substrate,2623.861842,2.17E-90
+85,dS ~ 1 + predator + morph + species + morph:predator + species:predator + species:morph,2624.396956,1.66E-90
+86,dS ~ 1 + predator + substrate + species,2625.568723,9.25E-91
+87,dS ~ 1 + predator + substrate + species + species:predator,2626.039719,7.31E-91
+88,dS ~ 1 + predator + morph,2755.319504,6.18E-119
+89,dS ~ 1 + predator + morph + species,2757.325399,2.27E-119
+90,dS ~ 1 + predator + morph + species + species:predator,2758.638359,1.18E-119
+91,dS ~ 1 + predator + morph + species + species:morph,2759.344133,8.27E-120
+92,dS ~ 1 + predator + morph + species + species:predator + species:morph,2760.669978,4.26E-120
+93,dS ~ 1 + predator,2773.101088,8.51E-123
+94,dS ~ 1 + predator + species,2774.795204,3.65E-123
+95,dS ~ 1 + predator + species + species:predator,2776.095339,1.90E-123
+96,dS ~ 1 + morph + substrate + substrate:morph,3264.0272,2.12E-229
+97,dS ~ 1 + morph + substrate + species + substrate:morph,3266.04592,7.73E-230
+98,dS ~ 1 + morph + substrate + species + substrate:morph + species:morph,3268.07754,2.80E-230
+99,dS ~ 1 + morph + substrate + species + substrate:morph + species:substrate,3269.493958,1.38E-230
+100,dS ~ 1 + morph + substrate + species + substrate:morph + species:morph + species:substrate,3271.538584,4.96E-231
