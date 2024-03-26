@@ -1,4 +1,11 @@
 # COLORVAR
+
+contents:
+visual_contrasts_calculation_pavo.R --> script for spectral analysis, color perception analysis and calculating visual contrasts between frogs and background for three different viewers.
+dS_dL_multi_model_averaging_glmulti.R --> script for statistical analysis using linear models and model averaging for investigating the relationship between predictors and responce variables.
+data --> subfolder containing input and output data
+
+
 Color variance analysis between red and green frogs of Oophaga species.
 
 Spectral data collected on the dorsal side of frogs collected from different localities
