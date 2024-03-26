@@ -1,1 +1,1 @@
-metadata.csv <-- metadata info relqated to each studied frog.
+frogs_metadata.csv <-- metadata info relqated to each studied frog.
