@@ -2,8 +2,16 @@
 
 contents:
 visual_contrasts_calculation_pavo.R --> script for spectral analysis, color perception analysis and calculating visual contrasts between frogs and background for three different viewers.
+
 dS_dL_multi_model_averaging_glmulti.R --> script for statistical analysis using linear models and model averaging for investigating the relationship between predictors and responce variables.
-data --> subfolder containing input and output data
+
+data --> subfolder containing input data on spectral measurements fro frgos and substrates and output data from visual       
+         modelling and statistical analysis.
+     contrasts --> output data of visual modelling scripts. For contents see contrasts.md
+     frogs --> Spectral measurements of sampled frogs. for contents see data.md
+     metadata --> Informatic data on collected frogs, see meta.md
+     model_output --> data output tables from statistical analysis. See model.md
+     substrate --> spectral measurements collected from substrate, see substrate.md
 
 
 Color variance analysis between red and green frogs of Oophaga species.
