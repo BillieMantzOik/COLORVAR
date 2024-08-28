@@ -196,7 +196,7 @@ par(mfcol=c(2,1), mar=c(5,6,4,3))
 plot(mixed_model.dL, type = "s")
 plot(mixed_model.dL, type = "w")
 dev.off()
-dL.coef<-coef(mixed_model.dS, select=0.95,
+dL.coef<-coef(mixed_model.dL, select=0.95,
               varweighting="Johnson",
               icmethod="Burnham")
 model.table.dL<-weightable(mixed_model.dL)
