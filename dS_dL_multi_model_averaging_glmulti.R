@@ -39,7 +39,7 @@ DT[,.(W = shapiro.test(log(dL))$statistic, P.value = shapiro.test(log(dL))$p.val
 library(ggplot2)
 p1<-ggplot(data, 
            aes(x = predator, y = dS, fill=substrate)) + 
-  xlab("observer") +  
+  xlab("predator") +  
   geom_boxplot() + 
   theme_classic(base_size = 12) + 
   scale_fill_manual(values = alpha(c("darkolivegreen","tan3","sienna4"), .6)) +
@@ -47,31 +47,14 @@ p1<-ggplot(data,
 pdf("boxplots_dS_species.pdf", width = 11.7, height = 8.25)
 p1
 dev.off()
-#plot for presentation
-library(hrbrthemes)
-library(viridis)
-install.packages('ggthemes')
-library(ggthemes)
-p1<-ggplot(data, 
-           aes(x = predator, y = dS, fill=morph)) + 
-  xlab("Observer") +  
-  geom_boxplot() +
-  theme_tufte(base_size = 14) %+replace% 
-  theme(panel.grid.major.y  = element_line(color = "lightgrey"),
-        axis.line = element_line(color = "black")) + 
-  theme(legend.position="top",
-        legend.text=element_text(size=18),
-        axis.title = element_text(hjust = 0.5, size=18, face="bold"),
-        axis.title.x = element_text(hjust = 0.5, size=18, face="bold"),
-        axis.title.y = element_text(hjust = 0.5, size=18, face="bold"),
-        axis.text = element_text(hjust = 0.5, size=16, face="bold")) +
-  scale_fill_manual(values = alpha(c('forestgreen','indianred2'), .8)) +
-  labs(fill = "morph") + facet_wrap(~species + substrate, ncol = 3) +
-  theme(strip.text.x = element_text(size = 16))
-pdf("boxplots_dS_species.pdf", width = 11.7, height = 8.25)
-p1
-dev.off()
 
+p2<-ggplot(data, 
+           aes(x = predator, y = dL, fill=substrate)) + 
+  xlab("predator") +  
+  geom_boxplot() + 
+  theme_classic(base_size = 12) + 
+  scale_fill_manual(values = alpha(c("darkolivegreen","tan3","sienna4"), .6)) +
+  labs(fill = "substrate") + facet_wrap(~species + locality, ncol = 3)
 pdf("boxplots_dL_species.pdf", width = 11.7, height = 8.25)
 p2
 dev.off()
