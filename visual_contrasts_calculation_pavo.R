@@ -154,7 +154,7 @@ morph <- gsub('red', 'indianred2', morph)
 morph <- gsub('green', 'forestgreen', morph)
 species <- metadata$species
 species <- as.factor(species)
-jndplot(btit, 
+jndplot(bird, 
         arrow = "relative", 
         arrow.p=0.8,
         achro = FALSE,
