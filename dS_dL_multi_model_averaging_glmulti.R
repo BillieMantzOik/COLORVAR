@@ -1,6 +1,6 @@
 # Script created for analyzing the visual contrasts of Oophaga frogs 
 # contrasts were meassured against a leaf litter substrate
-# Script by A. Rodríguez, data by V. Mantzana-Oikonomakis
+# Script by A. Rodríguez, data by V. Mantzana-Oikonomaki
 setwd('./visualmodelling_Vasiliki')
 
 library(lme4)
