@@ -7,7 +7,7 @@ library(lme4)
 library(sjPlot)
 library(MuMIn)
 
-data<-read.csv("visual_contrast_predators_on_substrates_new.csv", stringsAsFactors=TRUE)
+data<-read.csv("visual_contrast_predators_on_substrates_new_b.csv", stringsAsFactors=TRUE)
 str(data)
 head(data)
 
